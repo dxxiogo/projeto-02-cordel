@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --font-first: 'Passion One', cursive;
+    --font-second: 'Sriracha', cursive;
+}
+header{
+    background-color: black;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding: 20px;
+    font-family: var(--font-first);
+    font-size: 68px;
+}
+.text-header > a{
+    color: white;
+}
+.text-header > a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white;
+    margin: 20px 0px 30px 0px;
+   
+}
+section > p{
+    font-size: 27px;
+    font-family: var(--font-second);
+    padding: 30px;
+    
+
+}
+#image-joaninha{
+ background-image: url(imagens/background001.jpg);
+ background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+#image-folha{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+.container-first > p{
+    background-color: rgba(0, 0, 0, 0.378) ;
+    color: white;
+    max-width: 400px;
+    max-height: 350px;
+    padding: 30px;
+    margin: 20px ;
+}
+.container-third{
+    height: 800px;  
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+p > a{
+    color: white;
+}
+p > a:hover{
+    text-decoration: underline;
+}
