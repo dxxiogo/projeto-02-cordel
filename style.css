@@ -5,6 +5,9 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html, body{
+    min-height: 100vh;
+}
 :root{
     --font-first: 'Passion One', cursive;
     --font-second: 'Sriracha', cursive;
@@ -20,7 +23,7 @@ header{
 header > h1{
     padding: 20px;
     font-family: var(--font-first);
-    font-size: 68px;
+    font-size: 10vh;
 }
 .text-header > a{
     color: white;
